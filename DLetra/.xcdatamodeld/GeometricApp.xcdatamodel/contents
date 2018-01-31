@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PartidaCuadrado" representedClassName="PartidaCuadrado" syncable="YES" codeGenerationType="class">
+        <attribute name="aciertos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puntos" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PartidaCuadradoTexto" representedClassName="PartidaCuadradoTexto" syncable="YES" codeGenerationType="class">
+        <attribute name="aciertos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puntos" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PartidaRectangulo" representedClassName="PartidaRectangulo" syncable="YES" codeGenerationType="class">
+        <attribute name="aciertos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puntos" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PartidaRectanguloTexto" representedClassName="PartidaRectanguloTexto" syncable="YES" codeGenerationType="class">
+        <attribute name="aciertos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puntos" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PartidaRombo" representedClassName="PartidaRombo" syncable="YES" codeGenerationType="class">
+        <attribute name="aciertos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puntos" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PartidaRomboTexto" representedClassName="PartidaRomboTexto" syncable="YES" codeGenerationType="class">
+        <attribute name="aciertos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puntos" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PartidaTrapecio" representedClassName="PartidaTrapecio" syncable="YES" codeGenerationType="class">
+        <attribute name="aciertos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puntos" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PartidaTrapecioTexto" representedClassName="PartidaTrapecioTexto" syncable="YES" codeGenerationType="class">
+        <attribute name="aciertos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puntos" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PartidaTriangulo" representedClassName="PartidaTriangulo" syncable="YES" codeGenerationType="class">
+        <attribute name="aciertos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puntos" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PartidaTrianguloTexto" representedClassName="PartidaTrianguloTexto" syncable="YES" codeGenerationType="class">
+        <attribute name="aciertos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="puntos" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PreguntasCuadradoVoz" representedClassName="PreguntasCuadradoVoz" syncable="YES" codeGenerationType="class">
+        <attribute name="letra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="palabra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respuesta" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PreguntasRectanguloVoz" representedClassName="PreguntasRectanguloVoz" syncable="YES" codeGenerationType="class">
+        <attribute name="letra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="palabra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respuesta" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PreguntasRomboVoz" representedClassName="PreguntasRomboVoz" syncable="YES" codeGenerationType="class">
+        <attribute name="letra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="palabra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respuesta" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PreguntasTexto" representedClassName="PreguntasTexto" syncable="YES" codeGenerationType="class">
+        <attribute name="correcta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="definicion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="erronea1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="erronea2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="letra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="niveles" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usado" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="PreguntasTrapecioVoz" representedClassName="PreguntasTrapecioVoz" syncable="YES" codeGenerationType="class">
+        <attribute name="letra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="palabra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respuesta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usado" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="PreguntasTrianguloTexto" representedClassName="PreguntasTrianguloTexto" syncable="YES" codeGenerationType="class">
+        <attribute name="correcta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="definicion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="erronea1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="erronea2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="letra" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PreguntasTrianguloVoz" representedClassName="PreguntasTrianguloVoz" syncable="YES" codeGenerationType="class">
+        <attribute name="letra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="palabra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respuesta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usado" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="PreguntasVoz" representedClassName="PreguntasVoz" syncable="YES" codeGenerationType="class">
+        <attribute name="letra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nivel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="palabra" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="respuesta" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usado" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Usuario" representedClassName="Usuario" syncable="YES" codeGenerationType="class">
+        <attribute name="aciertos" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tiempo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PartidaCuadrado" positionX="-333" positionY="387" width="128" height="105"/>
+        <element name="PartidaCuadradoTexto" positionX="-297" positionY="189" width="128" height="105"/>
+        <element name="PartidaRectangulo" positionX="-333" positionY="603" width="128" height="105"/>
+        <element name="PartidaRectanguloTexto" positionX="-279" positionY="207" width="128" height="105"/>
+        <element name="PartidaRombo" positionX="-333" positionY="495" width="128" height="105"/>
+        <element name="PartidaRomboTexto" positionX="-288" positionY="198" width="128" height="105"/>
+        <element name="PartidaTrapecio" positionX="-333" positionY="279" width="128" height="105"/>
+        <element name="PartidaTrapecioTexto" positionX="-306" positionY="180" width="128" height="105"/>
+        <element name="PartidaTriangulo" positionX="-333" positionY="174" width="128" height="105"/>
+        <element name="PartidaTrianguloTexto" positionX="-486" positionY="171" width="128" height="103"/>
+        <element name="PreguntasCuadradoVoz" positionX="25" positionY="369" width="128" height="90"/>
+        <element name="PreguntasRectanguloVoz" positionX="25" positionY="549" width="128" height="90"/>
+        <element name="PreguntasRomboVoz" positionX="25" positionY="459" width="128" height="90"/>
+        <element name="PreguntasTexto" positionX="-306" positionY="180" width="128" height="150"/>
+        <element name="PreguntasTrapecioVoz" positionX="27" positionY="279" width="128" height="105"/>
+        <element name="PreguntasTrianguloTexto" positionX="-162" positionY="162" width="128" height="120"/>
+        <element name="PreguntasTrianguloVoz" positionX="-315" positionY="144" width="128" height="105"/>
+        <element name="PreguntasVoz" positionX="-315" positionY="171" width="128" height="120"/>
+        <element name="Usuario" positionX="-513" positionY="27" width="128" height="105"/>
+    </elements>
+</model>
